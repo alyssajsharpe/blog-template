@@ -9,4 +9,7 @@ Completed:
 
 TODO:
 - Add additional pages
-- Add slides, interactive cards, more interesting visual updates. 
+- Add slides, interactive cards, interesting visual updates. 
+
+
+![Alt text](public/Example-Screenshot.png?raw=true "Title")
