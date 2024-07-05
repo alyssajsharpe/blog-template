@@ -1,0 +1,69 @@
+footer {
+    background-color: rgb(46, 46, 46);
+    max-width: 1400px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: block;
+}
+
+.footer-container {
+    bottom: 0;
+    position: absolute;
+}
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #2e2f2f;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.menu--item { list-style: none;}
+
+.menu--link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+  &:hover {
+    color: #4d4f4f;
+  }
+}
+
+// Footer wave
+.footer-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(0deg);
+}
+
+.footer-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 200px); 
+    height: 100%;
+}

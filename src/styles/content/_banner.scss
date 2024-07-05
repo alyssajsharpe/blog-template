@@ -1,0 +1,63 @@
+.hero {
+    position: relative;
+    background-image: url('../../../public/hero.jpg');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-banner {
+    position: relative;
+    background-image: url('../../../public/mountains-and-ocean.jpg');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text { 
+    font-size: 3rem;
+    font-weight: bold; 
+    line-height: 1.2; 
+    color: white; 
+}
+
+// Banner Wave
+.banner-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.banner-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 200px); 
+    height: 100%;
+}
+
+
+.shapeFill {
+    fill: #ffffff; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+

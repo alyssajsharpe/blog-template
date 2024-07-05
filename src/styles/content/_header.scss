@@ -1,0 +1,23 @@
+header {
+    max-width: 1400px;
+    width: 100%;
+    color: white;
+    display: block;
+    position: absolute;
+}
+
+.header-container {
+    bottom: 0;
+    position: absolute;
+}
+
+
+.header {
+  position: relative;
+  width: 100%;
+  background: #2e2f2f;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
