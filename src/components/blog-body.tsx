@@ -57,7 +57,7 @@ const BlogBody: React.FC = () => {
             
             <div className='blog-container'>
             <div className='flex'>
-                <img className='blog-image padding-right-small' src='../../../public/cabin.jpg'></img>
+                <img className='blog-image padding-right-small' src='../../../public/ocean.jpg'></img>
                     <div className='blog-text-container'>
                         <p className='blog-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam aliquam sem. Tellus molestie nunc non blandit massa enim nec dui nunc. Ut morbi tincidunt augue interdum velit euismod in. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Vitae nunc sed velit dignissim sodales ut eu sem. Sem fringilla ut morbi tincidunt augue. Lectus arcu bibendum at varius. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Sapien faucibus et molestie ac feugiat sed lectus.</p>
                         <p className='blog-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam aliquam sem. Tellus molestie nunc non blandit massa enim nec dui nunc. Ut morbi tincidunt augue interdum velit euismod in. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Vitae nunc sed velit dignissim sodales ut eu sem. Sem fringilla ut morbi tincidunt augue. Lectus arcu bibendum at varius. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Sapien faucibus et molestie ac feugiat sed lectus.</p>
